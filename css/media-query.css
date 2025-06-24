@@ -1,0 +1,303 @@
+/* MEDIA QUERY*/
+
+@media all and (max-width: 1420px) {
+    /* Eveything accetable */
+}
+
+@media all and (max-width: 1200px) {
+    /* Eveything accetable */
+}
+
+@media all and (max-width: 991px) {
+
+    /* OVERVIEW SECTION */
+    .background-box {
+        padding: 80px 110px;
+    }
+
+    .background-box p {
+        font-size: 16px;
+    }
+
+    /* GAMEPLAY SECTION */
+    .video-text p {
+        font-size: 14px;
+    }
+
+    /* LOCATIONS SECTION */
+    .locations {
+        padding: 15vh 0 8vh;
+    }
+
+    .front {
+        padding: 0 10px 80;
+    }
+
+    .back {
+        padding: 0 10px 0;
+    }
+}
+
+@media all and (max-width: 768px) {
+
+    /* NAVIGATION BAR */
+    .nav-links li {
+        margin: 0 10px;
+        font-size: 16px;
+    }
+
+    .nav-links li:last-child {
+        margin-right: 0;
+    }
+
+    /* OVERVIEW SECTION */
+    .background-box {
+        padding: 60px 90px;
+    }
+
+    /* SHARED SECTION STYLES */
+    .gameplay,
+    .locations,
+    .specials {
+        padding: 12vh 0 0;
+    }
+
+    /* GAMEPLAY SECTION */
+    .content-wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 40px;
+    }
+
+    .video-container,
+    .video-text {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .video-container iframe {
+        height: 62vh;
+    }
+
+    .video-text p {
+        padding-bottom: 20px;
+    }
+
+    /* LOCATIONS SECTION */
+    .card-container {
+        padding-bottom: 0;
+    }
+
+    .cards {
+        width: 60vw;
+        height: 60vw;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+
+    .cards:last-child {
+        padding-bottom: 0;
+    }
+
+    /* SPECIALS SECTION */
+    .specials {
+        padding-bottom: 20px;
+    }
+
+    .special-item {
+        max-width: 90%;
+        padding: 20px 0 40px;
+    }
+
+}
+
+@media all and (max-width: 480px) {
+
+    /* NAVIGATION BAR */
+    #nav-menu {
+        padding: 0 30px;
+    }
+
+    .nav-links a:hover {
+        color: #fff;
+        background-color: initial;
+    }
+
+    /* HAMBURGER MENU*/
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgb(33, 13, 99);
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .nav-links-container.open .nav-links {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 20px 0;
+    }
+
+    .nav-links a {
+        padding: 10px;
+        font-size: 16px;
+        color: #fff;
+        border-radius: 5px;
+    }
+
+    /*HEADER SECTION */
+    .download-button {
+        bottom: 140px;
+    }
+
+    /* OVERVIEW SECTION */
+    .background-box {
+        padding: 45px 55px;
+    }
+
+    .background-box h1 {
+        font-size: 30px;
+    }
+
+    .background-box p {
+        font-size: 14px;
+    }
+
+    /* SHARED SECTION STYLES */
+    .gameplay h2,
+    .locations h2,
+    .specials h2,
+    .newsletter-content h2 {
+        font-size: 25px;
+    }
+
+    /* GAMEPLAY SECTION */
+    .video-container iframe {
+        height: 35vh;
+    }
+
+    /*  LOCATIONS SECTION */
+    .back h3 {
+        font-size: 18px;
+    }
+
+    .back p {
+        font-size: 13px;
+    }
+
+    .read-more {
+        font-size: 10px;
+    }
+
+    /*  SPECIALS SECTION */
+    .special-text h3 {
+        font-size: 18px;
+    }
+
+    .special-text p {
+        font-size: 13px;
+    }
+
+    .special-text .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 320px) {
+
+    /* HEADER SECTION */
+    .header-image img {
+        height: 50vh;
+        /* Reduce height to half the viewport height */
+    }
+
+    .download-button {
+        position: absolute;
+        bottom: 70px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .download-button .btn {
+        padding: 8px 16px;
+        font-size: 10px;
+    }
+
+    /* OVERVIEW SECTION */
+    .overview {
+        padding: 12vh 0 0;
+    }
+
+    .background-box {
+        padding: 35px 45px;
+    }
+
+    .background-box h1 {
+        font-size: 25px;
+    }
+
+    .background-box p {
+        font-size: 12px;
+    }
+
+    /* GAMEPLAY */
+    .video-container iframe {
+        height: 22vh;
+    }
+
+    .video-text p {
+        margin: 0 10px;
+        font-size: 11px;
+    }
+
+    /* LOCATIONS SECTION */
+    .cards {
+        width: 80vw;
+        height: 80vw;
+    }
+
+    .back h3 {
+        font-size: 16px;
+    }
+
+    .back p {
+        font-size: 11px;
+    }
+
+    .read-more {
+        font-size: 10px;
+    }
+
+    /*  SPECIALS SECTION */
+    .special-text h3 {
+        font-size: 16px;
+    }
+
+    .special-text p {
+        font-size: 12px;
+    }
+
+    /* NEWSLETTER SECTION */
+    .newsletter-content p {
+        font-size: 12px;
+    }
+
+    /*  FOOTER SECTION */
+    .social-links p {
+        font-size: 12px;
+
+    }
+}
