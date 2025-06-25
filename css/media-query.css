@@ -114,6 +114,12 @@
 
 @media all and (max-width: 480px) {
 
+     /* HEADER SECTION */
+    .header-image img {
+        height: 50vh;
+        /* Reduce height to half the viewport height */
+    }
+    
     /* NAVIGATION BAR */
     #nav-menu {
         padding: 0 30px;
@@ -219,12 +225,7 @@
 @media all and (max-width: 320px) {
 
     /* HEADER SECTION */
-    .header-image img {
-        height: 50vh;
-        /* Reduce height to half the viewport height */
-    }
-
-    .download-button {
+       .download-button {
         position: absolute;
         bottom: 70px;
         left: 50%;
