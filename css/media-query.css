@@ -116,7 +116,7 @@
 
      /* HEADER SECTION */
     .header-image img {
-        height: 50vh;
+        height: 80vh;
         /* Reduce height to half the viewport height */
     }
     
